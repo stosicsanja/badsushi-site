@@ -592,6 +592,9 @@ body.nav-active {
   transition-delay: 250ms;
   transform: translateY(100%);
 }
+.preload .text p{
+  font-family: var(--fontFamily-Martin);
+}
 
 .circle {
   width: 112px;
@@ -1061,10 +1064,13 @@ body.nav-active {
   \*-----------------------------------*/
 
 .about .section-text {
-  margin-block: 5px 40px;
-  letter-spacing: var(--letterSpacing-5);
-  font-size: var(--fontSize-title-2);
+ letter-spacing:1px
 }
+.about .section-text span{
+ color: var(--gold-crayola)
+ }
+
+
 
 .about .btn {
   margin-inline: auto;

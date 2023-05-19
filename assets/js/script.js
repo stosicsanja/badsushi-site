@@ -6,10 +6,10 @@
  *
  */
 
-const preloader = document.querySelector("[data-preaload]");
+const er = document.querySelector("[data-preaload]");
 
 window.addEventListener("load", function () {
-  preloader.classList.add("loaded");
+  er.classList.add("loaded");
   document.body.classList.add("loaded");
 });
 
